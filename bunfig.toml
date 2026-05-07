@@ -1,0 +1,10 @@
+[install]
+saveTextLockfile = true
+
+[run]
+bun = "bun"
+
+[build]
+entrypoints = ["src/server.ts"]
+outdir = "dist"
+target = "node"
