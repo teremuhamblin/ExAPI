@@ -1,0 +1,28 @@
+# ============================
+# ExAPI — dependabot.yml
+# ============================
+
+version: 2
+updates:
+  # --- Dépendances npm (Bun compatible) ---
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 10
+
+  # --- GitHub Actions ---
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "ci"
+      - "dependencies"
+    commit-message:
+      prefix: "ci"
+    open-pull-requests-limit: 10
