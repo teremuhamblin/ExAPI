@@ -1,0 +1,18 @@
+{
+  "name": "exapi",
+  "version": "1.0.0",
+  "description": "ExAPI — API rapide, modulaire et optimisée avec Bun + Fastify.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "build": "bun build src/server.ts --outdir=dist --target=node",
+    "start": "bun run dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.0",
+    "fastify": "^4.26.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
