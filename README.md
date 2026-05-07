@@ -1,10 +1,12 @@
 ###### README.md * markdown
+
+<p align="center">
+  
   <!-- Version -->
   <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Version" />
 
   <!-- Licence -->
   <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Licence" />
-
 </p>
 
 # 🇫🇷 ExAPI
