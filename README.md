@@ -49,18 +49,23 @@ docker run -p 5000:5000 --env-file=.env -it --network=host exapi
 ```text
 ExAPI/
 ├── .gitkeeps
-├── .github
+├── .github/ ── .gitkeeps
 ├── src/
+│   ├── .gitkeeps
 │   ├── server.ts
-│   ├── routes/
-│   ├── plugins/
-│   └── utils/
+│   ├── routes/ ── .gitkeeps
+│   ├── plugins/ ── .gitkeeps
+│   └── utils/ ── .gitkeeps
 ├── .env.example
 ├── .env.production.example
 ├── .env.development.example
-├── Dockerfile
+├── dockerfile
+├── docker-compose.yml
 ├── bunfig.toml
 ├── package.json
+├── tsconfig.json
+├── ROADMAP.md
+├── CHANGELOG.md
 └── README.md
 ```
 
