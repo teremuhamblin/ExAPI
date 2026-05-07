@@ -1,7 +1,7 @@
 ###### README.md * markdown
 <p align="left">
   <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=blue&label=Vues" />
-  <img src="https://img.shields.io/github/actions/workflows/teremuhamblin/ExAPI/test.yml/badge.svg?style=for-the-badge&color=blue&label=Build" />
+  <img src="https://img.shields.io/github/workflows/teremuhamblin/ExAPI/test.yml/badge.svg?style=for-the-badge&color=blue&label=Build" />
   <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=blue" />
   <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=blue&label=Version" />
 </p>
