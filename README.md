@@ -1,38 +1,12 @@
 ###### README.md * markdown
-<p align="left">
-
-  <!-- Vues -->
-  <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=0A84FF&label=Vues" />
-
-  <!-- Build -->
-  <img src="https://img.shields.io/github/actions/workflows/teremuhamblin/ExAPI/test.yml/badge.svg?style=for-the-badge&color=0A84FF&label=Build" />
-
   <!-- Version -->
   <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Version" />
 
   <!-- Licence -->
   <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Licence" />
 
-  <!-- Stars -->
-  <img src="https://img.shields.io/github/stars/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Stars" />
-
-  <!-- Forks -->
-  <img src="https://img.shields.io/github/forks/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Forks" />
-
-  <!-- Issues ouvertes -->
-  <img src="https://img.shields.io/github/issues/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Issues%20Ouvertes" />
-
-  <!-- Issues fermées -->
-  <img src="https://img.shields.io/github/issues-closed/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Issues%20Fermées" />
-
-  <!-- Pull Requests -->
-  <img src="https://img.shields.io/github/issues-pr/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Pull%20Requests" />
-
   <!-- Dernière release -->
   <img src="https://img.shields.io/github/release-date/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Release%20Date" />
-
-  <!-- Activité du repo -->
-  <img src="https://img.shields.io/github/commit-activity/m/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Activité" />
 
   <!-- Langage principal -->
   <img src="https://img.shields.io/github/languages/top/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=TypeScript" />
