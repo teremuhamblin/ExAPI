@@ -3,7 +3,7 @@
   <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=567890&label=Vues" />
   <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/ExAPI/test.yml?style=for-the-badge&label=Build" />
   <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=brightgreen&label=Version" />
+  <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=blue&label=Version" />
 </p>
 
 # 🇫🇷 ExAPI
