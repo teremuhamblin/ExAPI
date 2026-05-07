@@ -1,0 +1,52 @@
+# ============================
+# ExAPI — .dockerignore
+# ============================
+
+# Node / Bun
+node_modules
+bun.lockb
+
+# Build output
+dist
+build
+.cache
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.production.example
+
+# Tests & coverage
+coverage
+jest-cache
+jest-temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Temporary files
+tmp
+temp
+*.tmp
+
+# Git
+.git
+.gitignore
+
+# Docker
+docker-data
+docker-compose.override.yml
