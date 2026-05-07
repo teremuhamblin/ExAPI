@@ -1,5 +1,6 @@
 ###### ExAPI/src/README.md
-# 📁 src/ — Code source de ExAPI
+# 📁 src
+###### Code source de ExAPI
 >Ce dossier contient l’intégralité du code source de l’API ExAPI.  
 - Il est organisé de manière modulaire, scalable, et optimisée pour Bun + Fastify.
 
