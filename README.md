@@ -50,6 +50,7 @@ docker run -p 5000:5000 --env-file=.env -it --network=host exapi
 ExAPI/
 ├── .gitkeeps
 ├── .github/ ── .gitkeeps
+├── docs/ ── .gitkeeps
 ├── src/
 │   ├── .gitkeeps
 │   ├── server.ts
