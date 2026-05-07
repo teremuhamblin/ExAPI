@@ -66,6 +66,7 @@ ExAPI/
 ├── tsconfig.json
 ├── ROADMAP.md
 ├── CHANGELOG.md
+├── LICENSE
 └── README.md
 ```
 
