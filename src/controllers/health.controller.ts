@@ -1,0 +1,12 @@
+import { FastifyReply, FastifyRequest } from "fastify";
+
+export const healthController = async (
+  req: FastifyRequest,
+  reply: FastifyReply
+) => {
+  return reply.send({
+    status: "ok",
+    uptime: process.uptime(),
+    timestamp: Date.now(),
+  });
+};
