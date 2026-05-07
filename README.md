@@ -31,8 +31,10 @@ bun run build
 Avant d’exécuter l’image Docker, tu dois créer un fichier .env contenant les mêmes variables que ci-dessus.
 
 ```bash
-docker build -t my-super-awesome-api .
-docker run -p 5000:5000 --env-file=.env -it --network=host my-super-awesome-api  # utiliser --network=host pour le développement local
+docker build -t ExAPI
+
+docker run -p 5000:5000 --env-file=.env -it --network=host ExAPI
+# utiliser --network=host pour le développement local
 ```
 
 ---
