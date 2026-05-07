@@ -1,5 +1,5 @@
 ###### README.md * markdown
-<p align="right">
+<p align="left">
   <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=567890&label=Vues" />
   <img src="https://img.shields.io/github/actions/workflow/status/teremuhamblin/ExAPI/test.yml?style=for-the-badge&label=Build" />
   <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=blue" />
