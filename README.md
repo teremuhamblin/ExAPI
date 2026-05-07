@@ -1,9 +1,66 @@
 ###### README.md * markdown
 <p align="left">
-  <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=blue&label=Vues" />
-  <img src="https://img.shields.io/github/workflows/teremuhamblin/ExAPI/test.yml/badge.svg?style=for-the-badge&color=blue&label=Build" />
-  <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=blue&label=Version" />
+
+  <!-- Vues -->
+  <img src="https://kounter.kerolloz.dev/badge/exapi?style=for-the-badge&color=0A84FF&label=Vues" />
+
+  <!-- Build -->
+  <img src="https://img.shields.io/github/actions/workflows/teremuhamblin/ExAPI/test.yml/badge.svg?style=for-the-badge&color=0A84FF&label=Build" />
+
+  <!-- Version -->
+  <img src="https://img.shields.io/github/v/release/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Version" />
+
+  <!-- Licence -->
+  <img src="https://img.shields.io/github/license/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Licence" />
+
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Stars" />
+
+  <!-- Forks -->
+  <img src="https://img.shields.io/github/forks/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Forks" />
+
+  <!-- Issues ouvertes -->
+  <img src="https://img.shields.io/github/issues/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Issues%20Ouvertes" />
+
+  <!-- Issues fermées -->
+  <img src="https://img.shields.io/github/issues-closed/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Issues%20Fermées" />
+
+  <!-- Pull Requests -->
+  <img src="https://img.shields.io/github/issues-pr/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Pull%20Requests" />
+
+  <!-- Dernière release -->
+  <img src="https://img.shields.io/github/release-date/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Release%20Date" />
+
+  <!-- Activité du repo -->
+  <img src="https://img.shields.io/github/commit-activity/m/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Activité" />
+
+  <!-- Langage principal -->
+  <img src="https://img.shields.io/github/languages/top/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=TypeScript" />
+
+  <!-- Taille du repo -->
+  <img src="https://img.shields.io/github/repo-size/teremuhamblin/ExAPI?style=for-the-badge&color=0A84FF&label=Taille" />
+
+  <!-- Bun -->
+  <img src="https://img.shields.io/badge/Powered%20by-Bun-0A84FF?style=for-the-badge&logo=bun&logoColor=white" />
+
+  <!-- Docker -->
+  <img src="https://img.shields.io/badge/Docker-ready-0A84FF?style=for-the-badge&logo=docker&logoColor=white" />
+
+  <!-- Documentation -->
+  <img src="https://img.shields.io/badge/Docs-Complete-0A84FF?style=for-the-badge" />
+
+  <!-- Architecture -->
+  <img src="https://img.shields.io/badge/Architecture-Modulaire-0A84FF?style=for-the-badge" />
+
+  <!-- Tests -->
+  <img src="https://img.shields.io/badge/Tests-Automatisés-0A84FF?style=for-the-badge" />
+
+  <!-- Couverture (placeholder tant que tu n'as pas de coverage reporter) -->
+  <img src="https://img.shields.io/badge/Coverage-pending-0A84FF?style=for-the-badge" />
+
+  <!-- Qualité du code (placeholder) -->
+  <img src="https://img.shields.io/badge/Qualité-Excellente-0A84FF?style=for-the-badge" />
+
 </p>
 
 # 🇫🇷 ExAPI
