@@ -1,13 +1,11 @@
 ###### ExAPI/src/README.md
 # 📁 src/ — Code source de ExAPI
-
-Ce dossier contient l’intégralité du code source de l’API ExAPI.  
-Il est organisé de manière modulaire, scalable, et optimisée pour Bun + Fastify.
+>Ce dossier contient l’intégralité du code source de l’API ExAPI.  
+- Il est organisé de manière modulaire, scalable, et optimisée pour Bun + Fastify.
 
 ---
 
-🧱 Structure générale
-
+### 🧱 Structure générale
 ```text
 src/
 ├── server.ts          # Point d'entrée de l'application
@@ -35,107 +33,92 @@ src/
 
 ---
 
-🚀 Fichiers principaux
-
-server.ts
-Point d’entrée exécuté par Bun ou Docker.  
+### 🚀 Fichiers principaux
+##### server.ts
+- Point d’entrée exécuté par Bun ou Docker.  
 Il démarre le serveur et écoute sur le port défini dans .env.
 
-app.ts
-Construit l’application Fastify :  
+##### app.ts
+>Construit l’application Fastify :  
 - charge les plugins  
 - enregistre les routes  
 - configure les middlewares  
 
 ---
 
-🛣️ Routes
-
-Le dossier routes/ contient les définitions des endpoints.  
+### 🛣️ Routes
+>Le dossier routes/ contient les définitions des endpoints.  
 Chaque route est isolée dans son propre fichier.
-
-Exemple inclus :  
+###### Exemple inclus :  
 - /health → route de vérification de l’état du service
 
 ---
 
-🧠 Controllers
-
-Le dossier controllers/ contient la logique métier.  
-Chaque route appelle un controller dédié.
+### 🧠 Controllers
+>Le dossier controllers/ contient la logique métier.  
+- Chaque route appelle un controller dédié.
 
 ---
 
-🔌 Plugins
-
-Le dossier plugins/ contient les extensions Fastify :
-
+### 🔌 Plugins
+>Le dossier plugins/ contient les extensions Fastify :
 - env.plugin.ts → injection de la config  
 - logger.plugin.ts → logs des requêtes  
 - cors.plugin.ts → gestion du CORS  
 
 ---
 
-🧰 Utils
-
-Fonctions utilitaires réutilisables dans tout le projet :
-
+### 🧰 Utils
+>Fonctions utilitaires réutilisables dans tout le projet :
 - logger.ts → logger simple  
 - response.ts → helpers de réponses JSON  
 
 ---
 
-⚙️ Configuration
-
-Le dossier config/ contient :
-
-- config.ts → charge et expose les variables d’environnement  
-  (PORT, JWT, DB, logs, etc.)
+### ⚙️ Configuration
+>Le dossier config/ contient :
+- config.ts → charge et expose les variables d’environnement (PORT, JWT, DB, logs, etc.)
 
 ---
 
-🧪 Healthcheck
+### 🧪 Healthcheck
 
 L’API expose un endpoint :
 
-`
+```text
 GET /health
 ```
 
-Retourne :
+##### Retourne :
 
-`json
+```md
+json
 {
   "status": "ok",
   "uptime": 123.45,
   "timestamp": 1710000000000
 }
-`
+```
 
-Compatible Docker + monitoring.
+##### Compatible Docker + monitoring.
 
 ---
 
-🧩 Compilation
-
-Le code TypeScript est compilé dans :
-
+### 🧩 Compilation
+>Le code TypeScript est compilé dans :
 ```text
 dist/
 ```
 
-Ce dossier est généré automatiquement par :
-
+>Ce dossier est généré automatiquement par :
 ```text
 bun run build
 ```
 
 ---
 
-🐳 Docker
-
-Le serveur démarre automatiquement via :
-
+### 🐳 Docker
+>Le serveur démarre automatiquement via :
 ```text
 CMD ["bun", "run", "dist/server.js"]
 ```
